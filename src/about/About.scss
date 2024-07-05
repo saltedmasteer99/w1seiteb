@@ -1,0 +1,70 @@
+$color-success: #00ce33;
+$color-warning: #e8e400;
+$color-danger: #ff2626;
+$color-info: #9edafd;
+$color-about: #252525;
+$color-projects: #4bbdff;
+.text-white{
+    color: white;
+}
+.bg-success{
+    background-color: $color-danger;
+}
+.bg-warning{
+    background-color: $color-warning;
+}
+.bg-danger{
+    background-color: $color-success;
+}
+.bg-info{
+    background-color: $color-info;
+}
+.bg-about{
+    background-color: $color-about;
+}
+.bg-projects{
+    background-color: $color-projects;
+}
+@media only screen and (max-width: 768px){
+    
+}
+.about-container{
+    text-align: center;
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+    flex-direction: column;
+}
+.custom-shape-divider-bottom-1678909779 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1678909779 svg {
+    position: relative;
+    display: block;
+    width: calc(143% + 1.3px);
+    height: 362px;
+}
+
+.custom-shape-divider-bottom-1678909779 .shape-fill {
+    fill: $color-projects;
+}
+.projects-link{
+    position: relative;
+    z-index: 1;
+    user-select: none;
+    color: #252525;
+    text-decoration: none;
+    padding: .6em;
+    background-color: $color-projects;
+    border-radius: .7em 0;
+}

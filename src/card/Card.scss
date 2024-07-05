@@ -1,0 +1,33 @@
+.card{ 
+    user-select: none;
+    height: 500px;
+    width: 300px;
+    border: 2px solid white;
+    border-radius: 5px;
+    box-shadow: .5em .5em 3em .2em;
+    transition: .2s;
+    margin: 5em;
+    min-width: 300px;
+}
+.card:hover{
+    transform: translateY(-1.5em);
+}
+.card-img{
+    height: 60%;
+    border-radius: 1em;
+    border: .15em solid White;
+    -webkit-user-drag: none;
+}
+.card-desc{
+    font-size: 1em;
+    font-weight: 450;
+}
+.fd-row{
+    min-height: 100vh;
+    flex-direction: row;
+    height: initial;
+    flex-wrap: wrap;
+}
+@media only screen and (max-width: 1200px){
+    
+}
